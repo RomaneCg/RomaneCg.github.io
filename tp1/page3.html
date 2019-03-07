@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Accueil du site</title>
+</head>
+<body>
+<h1> Exercice 3 : les formulaires HTML5 </h1>
+
+<h3> Questionnaire </h3>
+<form method="post" action="traitement.php">
+	<fieldset>
+		<legend> Combien de cylindres a le moteur du véhicule que vous utilisez le plus souvent ? </legend>
+			<input type="radio" value="1" name="numero" id="id_1" />
+			<label for="id_1"> 1 </label>
+			<br>
+			<input type="radio" value="2" name="numero" id="id_2" />
+			<label for="id_2"> 2 </label>
+			</br>
+			<input type="radio" value="3" name="numero" id="id_3" />
+			<label for="id_3"> 3  </label>
+			<br>
+			<input type="radio" value="4" name="numero" id="id_4" />
+			<label for="id_4"> 4  </label>
+			</br>
+			<input type="radio" value="5" name="numero" id="id_5" />
+			<label for="id_5"> 5 ou plus </label>
+			<br>
+			<input type="radio" value="6" name="numero" id="id_6" />
+			<label for="id_6"> Je ne sais pas  </label>	
+			</br>
+			<input type="radio" value="7" name="numero" id="id_7" />
+			<label for="id_7"> Je n'utilise jamais de véhicule  </label>
+	</fieldset>
+	<fieldset>
+		<legend>Quels ingrédients voulez-vous sur votre pizza ?</legend>
+			<input type="checkbox" value="anchois" name="ingrédient[]" id="id_anchois"/>
+			<label for="id_anchois">anchois </label>
+			<br>
+			<input type="checkbox" value="poivrons" name="ingrédient[]" id="id_poivrons"/>
+			<label for="id_poivrons">poivrons </label>
+			</br>
+			<input type="checkbox" value="fromage" name="ingrédient[]" id="id_fromage"/>
+			<label for="id_fromage">fromage </label>
+			<br>
+			<input type="checkbox" value="jambon" name="ingrédient[]" id="id_jambon"/>
+			<label for="id_jambon">jambon </label>
+			<br>
+			<input type="checkbox" value="olives" name="ingrédient[]" id="id_olives"/>
+			<label for="id_olives">olives </label>
+			</br>
+			<input type="checkbox" value="champignons" name="ingrédient[]" id="id_champignons"/>
+			<label for="id_champignons">champignons </label>
+			</br>
+			<input type="checkbox" value="oignons" name="ingrédient[]" id="id_oignons"/>
+			<label for="id_oignons">oignons </label>
+			<br>
+			<input type="checkbox" value="chorizo" name="ingrédient[]" id="id_chorizo"/>
+			<label for="id_chorizo">chorizo </label>
+			<br>
+			<input type="checkbox" value="saucisse" name="ingrédient[]" id="id_saucisse"/>
+			<label for="id_saucisse">saucisse </label>
+	</fieldset>
+	<fieldset>
+		<legend>Dans quel type de logement habitez-vous ?</legend>
+			<select id="liste" name="type">
+				<option value="T1" selected>T1</option>
+				<option value="T2">T2</option>
+				<option value="T3">T3</option>
+				<option value="T4">T4</option>
+				<option value="Maison">Maison</option>
+			</select>
+	</fieldset>
+	<fieldset>
+		<legend>Avez-vous des questions, commentaires ou suggestions ?</legend>
+			<label for="id_merci">Merci de les écrire ici :</label>
+			<textarea rows="4" value="" id="id_merci"
+			name="comment"></textarea>
+	</fieldset>
+	<fieldset>
+		<legend> Etat Civil </legend>
+			<input type="radio" value="Homme" name="sexe" id="id_1" />
+			<label for="id_1"> Homme </label>
+			<input type="radio" value="Femme" name="sexe" id="id_2" />
+			<label for="id_2"> Femme </label>
+			<br>
+			<label for="id_nom">Nom :</label>
+			<textarea rows="1" value="" id="id_nom"
+			name="nom"></textarea>
+			</br>
+			<label for="id_prenom">Prenom :</label>
+			<textarea rows="1" value="" id="id_prenom"
+			name="nom"></textarea>
+	</fieldset>
+	<fieldset>
+		<legend> Validation </legend>
+		<p>
+			<input type="submit" value="Valider" />
+			<input type="reset" value="Annuler" />
+		</p>
+	</fieldset>
+</form>
+	<br>
+	<a href="page2.html" title="precedent">
+		<img src="../../images/precedent.png" width="120" height="70"/>
+	</a>
+	<a href="../../index.html" title="Accueil">
+		<img src="../../images/accueil.png" width="120" height="70"/>
+	</a>
+	</br>
+	
+	
+</form>
