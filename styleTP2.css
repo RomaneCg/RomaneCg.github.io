@@ -1,0 +1,100 @@
+h1{
+	color: pink;
+	text-align:center;
+	font-family: courier New;
+}
+
+
+body {
+background-color:grey;
+}
+
+h2{
+	color : white;
+	border-left : 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 15px 5px 10px 15px;
+	font-family: courier New;
+}
+h3{
+	color: SandyBrown;
+	font-family: courier New;
+}
+blockquote{
+	
+}
+.lien:visited{
+	color: white;
+}
+.image{
+	display: block;
+	margin: 0 auto; 
+}
+.titre{
+	background-color:lightyellow;
+	font-size:25px;
+	font-family: courier New;
+}
+.total {
+	background-color:coral;
+}
+#corner {
+	border-left:none;
+	border-top:none;
+	background-color:grey;
+}
+.color1 {
+	background-color:lightyellow;
+}
+.color2 {
+	background-color:coral;
+}
+.color3 {
+	background-color:burlywood;
+}
+.tab {
+	
+}
+.tab2 {
+	border-radius:5px;
+	border:2px solid;
+}
+.case{
+	text-align:center;
+	border-radius:5px;
+	border:1px solid;
+}
+.quest{
+	border-left : 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 15px 5px 10px 15px;
+	font-family: courier New;
+	font-size: 2em;
+	width: 80%;
+	margin-left: 5%;
+	margin-right: auto;
+	color: Azure;
+}
+.fleche{
+	text-align:center;
+}
+legend {
+	border: 3px RosyBrown solid;
+	background-color: PeachPuff;
+	text-align: center;
+	font-family: courier New;
+}
+.centre {
+	text-align: center;
+	font-size:30px;
+	left:260px;
+	background-color:BurlyWood;
+	position: relative;
+}
+fieldset{
+	border: 3px RosyBrown solid;
+	border-radius: 10px 10px 10px 10px;
+}
+#tb fieldset{ width: 80%;
+	margin-left: auto;
+	margin-right: auto;
